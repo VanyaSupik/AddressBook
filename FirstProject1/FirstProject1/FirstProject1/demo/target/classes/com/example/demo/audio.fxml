@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="254.0" prefWidth="851.0" style="-fx-background-color: #FFE7E7;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.AudioController">
+   <children>
+      <Label fx:id="label_audio" layoutX="7.0" layoutY="14.0" prefHeight="64.0" prefWidth="834.0" text="                        Audio Palyer">
+         <padding>
+            <Insets left="90.0" />
+         </padding>
+         <font>
+            <Font name="System Italic" size="36.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="audioProgress" layoutY="87.0" prefHeight="48.0" prefWidth="851.0" progress="0.0" />
+      <Button fx:id="play" layoutX="28.0" layoutY="158.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="122.0" style="-fx-background-color: #D00606;" text="PLAY">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="pause" layoutX="198.0" layoutY="158.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="122.0" style="-fx-background-color: #D00606;" text="PAUSE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="next" layoutX="364.0" layoutY="158.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="122.0" style="-fx-background-color: #D00606;" text="NEXT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="previous" layoutX="532.0" layoutY="158.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="122.0" style="-fx-background-color: #D00606;" text="PREVIOUS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Slider fx:id="volume" layoutX="697.0" layoutY="180.0" />
+   </children>
+</AnchorPane>
